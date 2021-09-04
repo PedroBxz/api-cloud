@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Pagina Inicial</title>
+  <link rel="shortcut icon" href="../images/plane-solid.svg" />
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Traveller</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/cidades.html">Conheça Cidades</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Serviços
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./pages/hoteis.html">Hotéis e Hospedagem</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item disabled" href="#">Aluguéis de carros</a></li>
+              <li><a class="dropdown-item disabled" href="#">Dicas úteis</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 class="display-2 text-center mt-3 "><i class="fas fa-plane"></i>Traveller</h1>
+    <a href="./pages/hoteis.html" class="display-6 text-decoration-none text-dark">Hoteis</a>
+
+    <div class="row">
+
+
+      <div class="card col-xs-12 col-sm-12 col-md-4 p-3">
+        <img src="./images/hilton.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hilton São Paulo Morumbi</h5>
+          <p class="card-text">O Hilton São Paulo Morumbi oferece o melhor de São Paulo a poucos passos, além de
+            proporcionar uma estadia relaxante e agradável.</p>
+          <a href="./pages/hilton.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+
+      <div class="card col-xs-12 col-sm-12 col-md-4 p-3">
+        <img src="./images/intercity.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Intercity Ibirapuera</h5>
+          <p class="card-text">o Intercity São Paulo Ibirapuera oferece piscina ao ar livre, restaurante, academia e
+            Wi-Fi gratuito. O hotel conta com uma estrutura moderna.</p>
+          <a href="./pages/intercity.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+
+      <div class="card col-xs-12 col-sm-12 col-md-4 p-3">
+        <img src="./images/tivoli.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tivoli Mofarrej</h5>
+          <p class="card-text">O Tivoli Mofarrej oferece conforto 5 estrelas e uma localização imbatível, A propriedade
+            dispõe de um spa de luxo, 2 restaurantes gastronômicos.</p>
+          <a href="./pages/tivoli.html" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+
+    </div>
+    <a href="./pages/cidades.html" class="display-6 mt-3 text-decoration-none text-dark">Conheça as cidades</a>
+    <div class="card col-xs-6 col-sm-6 col-md-4 p-3">
+      <img src="./images/sp.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">São Paulo</h5>
+        <p class="card-text">São Paulo é um estado brasileiro da região Sudeste. Trata-se da unidade de federação mais
+          populosa do país, com 46 milhões de pessoas, e abriga também a cidade com maior concentração de habitantes do
+          Brasil, que é a sua capital.</p>
+        <a href="./pages/cidades.html" class="btn btn-primary">Saiba Mais</a>
+      </div>
+    </div>
+    <div class="card col-xs-12 col-sm-12 col-md-4 p-3">
+      <div id="mapa"></div>
+      <div class="card-body">
+        <h5 class="card-title">Confira as melhores atrações perto de você</h5>
+        <p class="card-text">
+          <div id="coordenadas"></div>Coordenadas
+        </p>
+        <a href="./pages/cidades.html" class="btn btn-primary">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+A API escolhida foi a geolocalização, pois como o projeto traveller é baseado em pontos turísticos e viagens isso poderia ajuda-la a encontrar restaurantes e serviços próximos ao seu local em tempo real
